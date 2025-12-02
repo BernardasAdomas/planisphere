@@ -26,7 +26,7 @@ text: Dict[str, dict] = {
             "title": "PLANISFERA",
             "instructions_1": "Pasukite žvaigždžių ratelį taip, kad dabartinė data ant žvaigždžių ratelio būtų tame pačiame taške, kaip dabartinė valanda ant planisferos. Dabar matysite visus žvaigždynus, kurie yra matomi danguje.",
             "instructions_2": "Atsisukite į šiaurę ir iškelkite planisferą į dangų. Žvaigždės matomos planisferos apačioje turėtų būti tos pačios, kurias matote danguje priešais save.",
-            "instructions_3": """Norint pažiūrėti žvaigždes rytuose ar vakaruose pasukite visą planisferą taip, kad apačioje matytumėte žodį „East“ arba „West“ bei patys pasisukite į tą kryptį. Vėlgi, žvaigždės planisferos apačioje turėtų būti tos pačios, kurias matote prieš save.""",
+            "instructions_3": """Norint pažiūrėti žvaigždes rytuose ar vakaruose pasukite visą planisferą taip, kad apačioje matytumėte žodį RYTAI arba VAKARAI bei patys pasisukite į tą kryptį. Vėlgi, žvaigždės planisferos apačioje turėtų būti tos pačios, kurias matote prieš save.""",
             "instructions_4": (
                 r"Planisfera tai paprastas prietaisas leidžiantis matyti dabartinio nakties dangaus žvaigždžių žemėlapį. Sukant ratelį galima pamatyti, kaip žvaigždės juda aplink naktinį dangų ir kaip skirtingi žvaigždynai yra matomi skirtingais metų laikais.",
                 "",
