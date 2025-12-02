@@ -50,8 +50,7 @@ for language in text.text:
 
     # Render climates for latitudes at 5-degree spacings from 10 deg -- 85 deg, plus 52N
     latitude: float
-    for latitude in list(range(-80, 90, 5)) + [52]:
-
+    for latitude in list(range(55)):
         # Do not make equatorial planispheres, as they don't really work
         if -10 < latitude < 10:
             continue
@@ -103,7 +102,7 @@ for language in text.text:
 
         # Build LaTeX documentation
         for build_pass in range(3):
-            subprocess.check_output("cd doc ; pdflatex planisphere{lang_short}.tex".format(**subs), shell=True)
+            subprocess.check_output("#!/bin/sh cd doc ; pdflatex planisphere{lang_short}.tex".format(**subs), shell=True)
 
         os.system("mv doc/planisphere{lang_short}.pdf "
                   "{dir_out}/planisphere_{abs_lat:02d}{ns}_{lang}.pdf".format(**subs))
